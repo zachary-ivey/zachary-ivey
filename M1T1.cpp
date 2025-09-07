@@ -17,7 +17,7 @@ int main() {
     //special FX: says "Hello" to the user.
 
     //Let's say hello
-    cout >> "Hello, user!" << endl; // "End Line" not "End 1"
+    cout << "Hello, user!" << endl; // "End Line" not "End 1"
 
     return 0; // no errors
 }
