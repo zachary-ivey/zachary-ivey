@@ -8,7 +8,7 @@
       "name": "Launch M1T1",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/M1T1.cpp",
+      "program": "${workspaceFolder}/M1T1"
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
