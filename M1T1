@@ -11,8 +11,13 @@ Program will great the user
 using namespace std;
 
 int main() {
+    //input starts the prgoram
+    //processing: none
+    //output 0: {no errors}
+    //special FX: says "Hello" to the user.
 
-    
+    //Let's say hello
+    cout >> "Hello, user!" << endl; // "End Line" not "End 1"
 
     return 0; // no errors
 }
