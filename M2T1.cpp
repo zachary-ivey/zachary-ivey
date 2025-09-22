@@ -6,6 +6,7 @@
 // "checkout" machine.
 
  #include <iostream>
+ #include <iomanip>
  using namespace std;
 
  int main() {
@@ -34,6 +35,8 @@
 
     //Calculate total price
     total_cost = amount_purchased * cost_each;
+
+    cout << setprecision(2) << fixed;
     //Give the result
     cout << "For " << amount_purchased << " " << product << endl;
     cout << "That will be: $" << total_cost << endl;
