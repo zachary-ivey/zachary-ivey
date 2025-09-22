@@ -20,9 +20,9 @@
     // Greet the customer
     cout << "Welcome to our " << product << " store!" << endl;
     cout << "What's your first name? ";
-    cin << first_name;
+    cin >> first_name;
     cout << "What's your last name? ";
-    cin << last_name;
+    cin >> last_name;
     full_name = first_name + " " + last_name;
     cout << "Nice to meet you, " << full_name << endl;
 
