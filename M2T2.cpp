@@ -30,7 +30,7 @@
     total = item_price + tax_amount;
 
     //Print the reciept
-    cout << setprecision << fixed;
+    cout << setprecision(2) << fixed;
     cout << total << endl;
 
 
