@@ -34,9 +34,10 @@
     cout << "Thank you for shopping with us!" << endl;
     cout <<"================================" << endl;
     cout << item << "\t$" << item_price << endl;
-    cout << "Tax" << "\t$" << tax_amount << endl;
+    cout << "Tax" << "\t\t$" << tax_amount << endl;
     cout <<"================================" << endl;
-    cout << "Total" << "\t$" << total << endl;
+    cout << "Total" << "\t\t$" << total << endl;
+    cout << endl;
 
 
     return 0;
