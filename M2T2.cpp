@@ -22,7 +22,7 @@
 
     //Greet user and take order
     cout << "Welcome to My Resturant!" << endl;
-    cout << "You ordered  one" << item << "." << endl;
+    cout << "You ordered  one " << item << "." << endl;
 
     //Calculate meal price
     //Calculate the sales tax and the total price
