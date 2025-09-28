@@ -21,7 +21,7 @@
     double total;           // Price + tax
 
     //Greet user and take order
-    cout << "Welcome to My Resturant!" << endl;
+    cout << "Welcome to My Restaurant!" << endl;
     cout << "You ordered  one " << item << "." << endl;
 
     //Calculate meal price
@@ -31,7 +31,12 @@
 
     //Print the reciept
     cout << setprecision(2) << fixed;
-    cout << total << endl;
+    cout << "Thank you for shopping with us!" << endl;
+    cout <<"================================" << endl;
+    cout << item << "\t$" << item_price << endl;
+    cout << "Tax" << "\t$" << tax_amount << endl;
+    cout <<"================================" << endl;
+    cout << "Total" << "\t$" << total << endl;
 
 
     return 0;
