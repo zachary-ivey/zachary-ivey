@@ -31,11 +31,6 @@ int main () {
     else if (grade >= 0 && grade < 60)
         lettergrade = 'F';
 
-    else {
-        cout << "Please enter a grade";
-        return 1;
-    }
-
     cout << "Your letter grade is: " << lettergrade << endl;
 
     return 0;
