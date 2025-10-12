@@ -17,19 +17,19 @@ int main () {
     char lettergrade;
     
     if (grade >= 90 && grade <= 100)
-    lettergrade = "A";
+        lettergrade = "A";
 
     else if (grade >= 80 && grade < 90)
-    lettergrade = "B";
+        lettergrade = "B";
 
     else if (grade >= 70 && grade < 80)
-    letterGrade = 'C';
+        letterGrade = 'C';
     
     else if (grade >= 60 && grade < 70)
-    lettergrade = "D";
+        lettergrade = "D";
     
     else if (grade >= 0 && grade < 60)
-    lettergrade = "F";
+        lettergrade = "F";
 
     else {
         cout << "Please enter a grade"
