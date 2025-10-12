@@ -2,7 +2,7 @@
 //M3LAB1
 //Zachary Ivey
 //10/10/2025
-//Program will great the user
+//Program will give the user a option to pick and display a different response
 
 #include <iostream>
 #include <string>
