@@ -36,6 +36,7 @@ int main () {
         return 1;
     }
 
-    cout << "Your"
+    cout << "Your letter grade is: " << lettergrade << endl;
 
+    return 0;
 }
