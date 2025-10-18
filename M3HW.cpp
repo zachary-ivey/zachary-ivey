@@ -23,24 +23,43 @@ int choice;
 cin >> choice;
 
 if (choice == 1) {
-        question1();
+    question1();
     }
-    else if (choice == 2) {
-        question2();
+else if (choice == 2) {
+    question2();
     }
-    else if (choice == 3) {
-        question3();
+else if (choice == 3) {
+    question3();
     }
-    else if (choice == 4) {
-        question4();
+else if (choice == 4) {
+    question4();
     }
-    else if (choice == 0) {
-        cout << "Bye!" << endl;
-        return 0;
-    }
-    else {
-        cout << "Not a valid choice." << endl;
-    }
+else if (choice == 0) {
+    cout << "Bye!" << endl;
+    return 0;
+else {
+    cout << "Please pick 1, 2, 3, or 4" << endl;
+}
 
     return 0;
+}
+
+//Chatbot program
+void question1() {
+    cout << "Question 1: Chatbot" << endl;
+
+    char answer[10];
+    cout << "Hello, I’m a C++ program!" << endl;
+    cout << "Do you like me? Please type yes or no: ";
+    cin >> answer;
+
+    if (answer[0] == 'y' || answer[0] == 'Y') {
+        cout << "That’s great! I’m sure we’ll get along." << endl;
+    } 
+    else if (answer[0] == 'n' || answer[0] == 'N') {
+        cout << "Well, maybe you’ll learn to like me later." << endl;
+    } 
+    else {
+        cout << "If you’re not sure… that’s OK." << endl;
+    }
 }
