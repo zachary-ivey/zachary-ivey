@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/M2T2",
+            "program": "${workspaceFolder}/M3HW",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
