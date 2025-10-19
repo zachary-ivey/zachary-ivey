@@ -141,5 +141,23 @@ void question3() {
 }
 
 void question4() {
-    cout << "Question 4 not implemented yet." << endl;
+    cout << "Question 4: Math Practice" << endl;
+
+    int num1, num2, user_answer, correct_answer;
+
+    cout << "Enter the first number (0–9): ";
+    cin >> num1;
+    cout << "Enter the second number (0–9): ";
+    cin >> num2;
+
+    correct_answer = num1 + num2;
+
+    cout << "What is " << num1 << " plus " << num2 << "? ";
+    cin >> user_answer;
+
+    if (user_answer == correct_answer) {
+        cout << "Correct!" << endl;
+    } else {
+        cout << "Incorrect. The right answer was " << correct_answer << "." << endl;
+    }
 }
