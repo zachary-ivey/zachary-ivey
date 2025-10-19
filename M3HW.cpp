@@ -109,7 +109,35 @@ void question2() {
     cout << "Total: $" << total << endl;
 }
 void question3() {
-    cout << "Question 3 not implemented yet." << endl;
+    cout << "Question 3: Choose your own adventure." << endl;
+
+    char choice1[10];
+    char choice2[10];
+
+    cout << "You wake up in a dark cave. Do you leave or stay?";
+    cin >> choice1;
+
+    if (choice1[0] == 'l' || choice1[0] == 'L') {
+        cout << "You step outside and see a path leading into the forest." << endl;
+        cout << "Do you folow it or turn back? ";
+        cin >> choice2;
+
+        if (choice2[0] == 'f' || choice2[0] == 'F') {
+            cout << "You find your way out of the forest. You win!" << endl;
+        } 
+        else if (choice2[0] == 't' || choice2[0] == 'T') {
+            cout << "You get lost on your way back. Game over." << endl;
+        } 
+        else {
+            cout << "You stand there confused until night falls. Game over." << endl;
+        }
+    } 
+    else if (choice1[0] == 's' || choice1[0] == 'S') {
+        cout << "You wait too long, and the cave collapses. Game over." << endl;
+    } 
+    else {
+        cout << "You hesitate and nothing happens. Game over." << endl;
+    }
 }
 
 void question4() {
